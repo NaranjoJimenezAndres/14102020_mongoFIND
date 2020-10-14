@@ -1,0 +1,5 @@
+db.GBD_artistas.find({"spotifyRank":{$lte:5}}).pretty()
+db.GBD_artistas.find({$nor: [{spotifyRank:1},{spotifyRank:{$exist:false}}]})
+db.GBD_artistas.find({Genero:"HipHop"})
+db.GBD_artistas.find({"BilliboardChart100hit": {$eq:"Laugh Now Cry Later, Popstar, Life is Good"}})
+db.GBD_artistas.find({Genero:{$ne:"Pop"}})
