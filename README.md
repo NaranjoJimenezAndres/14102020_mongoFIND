@@ -1,5 +1,5 @@
 # 14102020_mongoFIND
 
 # TAREA:USO DEL COMANDO FIND()
-* Creacion de una base de datos en mongDB :**GBD_artistas.**
+* Creación de una base de datos en mongoDB :**GBD_artistas.**
 * Uso del comando **FIND()** para probar diferentes resultados.
